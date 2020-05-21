@@ -24,17 +24,17 @@ The main() function creates two threads - capsense_task() and weather_task() - t
       - make vscode
       - make ewarm8
       - make uvision
-7. If you have a TFT shield, enable software support with Segger emWin
-  a. Use the ModusToolbox Library Manager tool to add required libraries
-    -- emwin
-    -- CY8CKIT-028-TFT
-  b. Edit the Makefile file to un-comment two lines
-    -- "DEFINES+=TFT_SUPPORTED"
-    -- "COMPONENTS+=EMWIN_OSNTS"
-8. Edit private_data.h to add your router name and password, plus your API key
-9. Build and program the kit (IDE-specific)
--- make build
--- make program / make qprogram
+6. If you have a TFT shield, enable software support with Segger emWin
+    1. Use the ModusToolbox Library Manager tool to add required libraries
+    - emwin
+    - CY8CKIT-028-TFT
+    2. Edit the Makefile file to un-comment two lines
+    - "DEFINES+=TFT_SUPPORTED"
+    - "COMPONENTS+=EMWIN_OSNTS"
+7. Edit private_data.h to add your router name and password, plus your API key
+8. Build and program the kit (IDE-specific)
+    - make build
+    - make program / make qprogram
 
 ## Operation
 
