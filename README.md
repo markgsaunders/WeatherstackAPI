@@ -26,11 +26,11 @@ The main() function creates two threads - capsense_task() and weather_task() - t
       - make uvision
 6. If you have a TFT shield, enable software support with Segger emWin
     1. Use the ModusToolbox Library Manager tool to add required libraries
-    -- emwin
-    -- CY8CKIT-028-TFT
+        -- emwin
+        -- CY8CKIT-028-TFT
     2. Edit the Makefile file to un-comment two lines
-    -- "DEFINES+=TFT_SUPPORTED"
-    -- "COMPONENTS+=EMWIN_OSNTS"
+        -- "DEFINES+=TFT_SUPPORTED"
+        -- "COMPONENTS+=EMWIN_OSNTS"
 7. Edit private_data.h to add your router name and password, plus your API key
 8. Build and program the kit (IDE-specific)
     - make build
