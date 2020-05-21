@@ -20,10 +20,10 @@ The main() function creates two threads - capsense_task() and weather_task() - t
   -- Choose the BSP for your kit
   -- Choose the "Weatherstack API Demo" project template
 5. Optionally export to your preferred IDE and follow the instructions
-  -- make eclipse
-  -- make vscode
-  -- make ewarm8
-  -- make uvision
+      -- make eclipse
+      -- make vscode
+      -- make ewarm8
+      -- make uvision
 7. If you have a TFT shield, enable software support with Segger emWin
   a. Use the ModusToolbox Library Manager tool to add required libraries
     -- emwin
