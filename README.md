@@ -17,13 +17,13 @@ The main() function creates two threads - capsense_task() and weather_task() - t
 2. Create a weatherstack.com account and get a free access key (32-digit code)
 3. Add the line "https://github.com/markgsaunders/ModusToolbox-Manifests/raw/master/super-manifest.xml" to your ~/.modustoolbox/manifest.loc file
 4. Use the ModusToolbox Project Creator tool to create a new project
-  -- Choose the BSP for your kit
-  -- Choose the "Weatherstack API Demo" project template
+     1. Choose the BSP for your kit
+    2. Choose the "Weatherstack API Demo" project template
 5. Optionally export to your preferred IDE and follow the instructions
-      -- make eclipse
-      -- make vscode
-      -- make ewarm8
-      -- make uvision
+      - make eclipse
+      - make vscode
+      - make ewarm8
+      - make uvision
 7. If you have a TFT shield, enable software support with Segger emWin
   a. Use the ModusToolbox Library Manager tool to add required libraries
     -- emwin
