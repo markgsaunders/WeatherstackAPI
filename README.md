@@ -1,6 +1,6 @@
 # WEATHERSTACK API DEMO
 
-This is a simple web-enabled weather-reporting application that demonstrates the combination of Infineon PSoC 6 MCU functionality like CapSense with AnyCloud Wi-Fi software libraries. The Weatherstack API service is used to get the latest weather conditions at cities around the world. It was used in the 5/21/2020 webinar [Flexible IoT Software Development with ModusToolbox® and the AnyCloud™ SDK"](https://www.cypress.com/iot-advantedge-webinars).
+This is a simple web-enabled weather-reporting application that demonstrates the combination of Infineon PSoC 6 MCU functionality like CapSense with AnyCloud Wi-Fi software libraries. The Weatherstack API service is used to get the latest weather conditions at cities around the world. It was used in the 5/21/2020 webinar [Flexible IoT Software Development with ModusToolbox® and the AnyCloud™ SDK](https://www.cypress.com/iot-advantedge-webinars).
 
 ## Overview
 
