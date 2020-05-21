@@ -17,26 +17,20 @@ The main() function creates two threads - capsense_task() and weather_task() - t
 2. Create a weatherstack.com account and get a free access key (32-digit code)
 3. Add the line "https://github.com/markgsaunders/ModusToolbox-Manifests/raw/master/super-manifest.xml" to your ~/.modustoolbox/manifest.loc file
 4. Use the ModusToolbox Project Creator tool to create a new project
--- Choose the BSP for your kit
--- Choose the "Weatherstack API Demo" project template
+  -- Choose the BSP for your kit
+  -- Choose the "Weatherstack API Demo" project template
 5. Optionally export to your preferred IDE and follow the instructions
--- make eclipse
--- make vscode
--- make ewarm8
--- make uvision
-6. Copy the following files from libs/wifi-mw-core/configs to the top-level of your project
--- FreeRTOSConfig.h
--- lwipopts.h
--- mbedtls_user_config.h
+  -- make eclipse
+  -- make vscode
+  -- make ewarm8
+  -- make uvision
 7. If you have a TFT shield, enable software support with Segger emWin
-
-a. Use the ModusToolbox Library Manager tool to add required libraries
--- emwin
--- CY8CKIT-028-TFT
-b. Edit the Makefile file to un-comment two lines
--- "DEFINES+=TFT_SUPPORTED"
--- "COMPONENTS+=EMWIN_OSNTS"
-
+  a. Use the ModusToolbox Library Manager tool to add required libraries
+    -- emwin
+    -- CY8CKIT-028-TFT
+  b. Edit the Makefile file to un-comment two lines
+    -- "DEFINES+=TFT_SUPPORTED"
+    -- "COMPONENTS+=EMWIN_OSNTS"
 8. Edit private_data.h to add your router name and password, plus your API key
 9. Build and program the kit (IDE-specific)
 -- make build
